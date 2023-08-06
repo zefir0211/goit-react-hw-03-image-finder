@@ -11,8 +11,8 @@ export const Header = styled.header`
     background-position: center;
     background-size: cover;
     margin: 0 auto;
+    padding: 10px 0;
     max-width: 1440px;
-    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,6 +27,7 @@ export const Form = styled.form`
     height: 25px;
     display: flex;
     padding: 5px;
+    margin-bottom: 10px;
 `;
 
 export const Input = styled.input`
@@ -56,7 +57,7 @@ export const Button = styled.button`
 `;
 
 export const Text = styled.p`
-    margin-top: 40px;
+    margin: 0;
     font-size: 16px;
     font-weight: 400;
     font-family: Open Sans,Arial,sans-serif;
